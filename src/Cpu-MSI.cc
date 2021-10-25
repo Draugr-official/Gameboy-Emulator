@@ -2,7 +2,7 @@
 #include <exception>
 
 int base = 0;
-BYTE ram[8000] = { 0 }; // 8kb default
+BYTE ram[8192] = { 0 }; // 8kb default
 BYTE instrcache[1] = { 0 };
 
 bool halted = false;
